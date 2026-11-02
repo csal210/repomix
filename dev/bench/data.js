@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793048197875,
+  "lastUpdate": 1793656054349,
   "repoUrl": "https://github.com/csal210/repomix",
   "entries": {
     "Repomix Performance": [
@@ -90,6 +90,44 @@ window.BENCHMARK_DATA = {
             "range": "±26",
             "unit": "ms",
             "extra": "Median of 20 runs\nQ1: 1378ms, Q3: 1404ms\nAll times: 1363, 1369, 1375, 1377, 1377, 1378, 1384, 1387, 1390, 1391, 1391, 1392, 1393, 1393, 1396, 1404, 1405, 1406, 1412, 1422ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "koukun0120@gmail.com",
+            "name": "Kazuki Yamada",
+            "username": "yamadashy"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fe02ab760f14cc2b22123597cb46b37fc52144e7",
+          "message": "Merge pull request #1862 from lorenzozanee/fix/honor-parent-gitignore-for-directory-input\n\ntest(file): Cover parent .gitignore for directory input",
+          "timestamp": "2026-11-02T00:33:19+09:00",
+          "tree_id": "b8e5efd865beada18a6077ac1b2828de823b3367",
+          "url": "https://github.com/csal210/repomix/commit/fe02ab760f14cc2b22123597cb46b37fc52144e7"
+        },
+        "date": 1793656053505,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Repomix Pack (Linux)",
+            "value": 1011,
+            "range": "±20",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 1001ms, Q3: 1021ms\nAll times: 992, 993, 999, 1000, 1000, 1001, 1002, 1004, 1007, 1011, 1011, 1016, 1020, 1021, 1021, 1021, 1022, 1029, 1030, 1044ms"
+          },
+          {
+            "name": "Repomix Pack (Windows)",
+            "value": 724,
+            "range": "±18",
+            "unit": "ms",
+            "extra": "Median of 20 runs\nQ1: 717ms, Q3: 735ms\nAll times: 709, 709, 710, 714, 716, 717, 720, 722, 723, 723, 724, 729, 730, 731, 732, 735, 736, 738, 741, 779ms"
           }
         ]
       }
